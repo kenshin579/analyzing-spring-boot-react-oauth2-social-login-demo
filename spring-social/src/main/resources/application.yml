@@ -1,8 +1,9 @@
 spring:
     datasource:
-        url: jdbc:mysql://localhost:3306/spring_social?useSSL=false
+        url: jdbc:mysql://localhost:3306/spring_social?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useAffectedRows=true&allowMultiQueries=true
         username: root
         password: callicoder
+        driver-class-name: com.mysql.jdbc.Driver
 
     jpa:
         show-sql: true
